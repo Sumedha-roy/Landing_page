@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <img src="logo1.jpg">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="text1">
+            <h1>THE BODY ACHIEVES<br>WHAT THE MIND<br>BELIVES</h1>
+            <button>START A FREE TRIAL 1 MONTH</button>
+        </div>
+        <h2>Follow Us!</h2>
+        <div class="footer">
+            <a><i class="fa-brands fa-square-facebook"></i></a>
+            <a><i class="fa-brands fa-square-instagram"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </section>
+    <section id="about">
+        <h2>OUR MISSION IS TO INSPIRE AND NURTURE YOUNG TALENT THROUGH GYMNASTICS</h2>
+        <div class="paragraph"><h3>Founded in 2021,<br> Our center has produced numerous<br> state national champions.</h3>
+            <p>Our coaches have been a part of the gymnastics community for over 2 years.<br>They started their gymnastics career since childhood and <br>completed at the national level throughout their youth.<br>They ae all ntional Champions<br>Trained over 50 state-level medalists and 10 national champions.
+            </p>>
+            <h4>Let's get started </h4>
+            <button>Prefer the App?</button>
+        </div>
+        <img src="12621.jpeg" alt="Coaches">
+    </section>
+    <section id="services">
+        <h1>Premier Services for Aspiring Gymnasts</h1>
+            <h2>Programs</h2>
+            <p>We offer beginner, intermediate, and advanced programs.</p>
+            <h2>Class Schedules</h2>
+            <table>
+                <tr>
+                    <th>Program</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Beginner</td>
+                    <td>Monday, Wednesday</td>
+                    <td>4:00 PM - 5:30 PM</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Tuesday, Thursday</td>
+                    <td>5:30 PM - 7:00 PM</td>
+                </tr>
+            </table>
+            <h2>Enrollment</h2>
+            <p>To enroll, please visit our center or contact us at (phone number).</p>
+            <h2>Special Events</h2>
+            <p>Join our summer camp or participate in our annual competitions.</p>
+    </section>
+    <section id="contact">
+        <div class="contact-details">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Gymnastics Lane, City, State, ZIP</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@gymnasticscenter.com</p>
+            <h2>Business Hours</h2>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday: 10:00 AM - 4:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
